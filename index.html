@@ -7,25 +7,38 @@
   </head>
 
   <body>
-    <section>
-      <nav>
-        <div><img src="" alt="logo" /></div>
+    <header id="header">
+      <nav id="nav-bar">
+        <!-- <div><img src="" alt="logo" id="header-img"/></div> -->
+
         <div>
-          <div>Features<a href=""></a></div>
-          <div>How It Works<a href=""></a></div>
-          <div>Pricing<a href=""></a></div>
+          <img
+            src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F166%2F166d7ab1-9a22-41bf-a6b0-b070487e9c33%2FphpyZvu0k.png"
+            alt="logo"
+            id="header-img"
+          />
         </div>
+
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
-    </section>
-    <main>
+    </header>
+    <main class="main">
       <section>
-      <h1>Handcrafted, home-made masterpieces</h1>
-      <form action="">
-        <input type="email" placeholder="Enter your email address" /><br />
-        <button>Get Started</button>
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="/https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          /><br />
+          <input type="submit" id="submit" value="Submit"></input>
+        </form>
       </section>
-      </form>
-      <section >
+
+      <section id="features">
         <div class="container">
           <div class="projects"></div>
           <div class="project1"><img src="" alt="icon" /></div>
@@ -54,28 +67,53 @@
           </div>
         </div>
       </section>
-      <section>
-      <iframe
-        id="video"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-        frameborder="0"
-        allowfullscreen=""
-      ></iframe>
-    </section>
-<section>
-  <div class="card">
-    <div class="container">
-      <h4><b>JTenor Trombone</b></h4>
-      <p>Lorem ipsum.</p>
-      <p>Lorem ipsum.</p>
-      <p>Lorem ipsum dolor.</p>
-      <p>Lorem ipsum.</p>
-      <p>select</p>
-    </div>
-  </div> 
-</section>
-    
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="card">
+          <div class="container">
+            <h4><b>JTenor Trombone</b></h4>
+            <p><b>$600</b></p>
+            <p>
+              Lorem ipsum <br />
+              Lorem ipsum dolor <br />Lorem ipsum
+            </p>
+
+            <button>select</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <h4><b>JTenor Trombone</b></h4>
+            <p><b>$600</b></p>
+            <p>
+              Lorem ipsum <br />
+              Lorem ipsum dolor <br />Lorem ipsum
+            </p>
+
+            <button>select</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <h4><b>JTenor Trombone</b></h4>
+            <p><b>$600</b></p>
+            <p>
+              Lorem ipsum <br />
+              Lorem ipsum dolor <br />Lorem ipsum
+            </p>
+
+            <button>select</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
